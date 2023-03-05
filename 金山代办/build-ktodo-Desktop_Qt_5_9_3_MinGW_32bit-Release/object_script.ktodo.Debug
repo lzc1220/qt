@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\ktodo.o
+./debug\kmypushbutoon.o
+./debug\kprintbutton.o
+./debug\ktodoitem.o
+./debug\qrc_res.o
+./debug\moc_ktodo.o
+./debug\moc_kmypushbutoon.o
+./debug\moc_kprintbutton.o
+./debug\moc_ktodoitem.o
+);

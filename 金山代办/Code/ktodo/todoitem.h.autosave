@@ -1,0 +1,37 @@
+#ifndef TODOITEM_H
+#define TODOITEM_H
+
+#include <QWidget>
+#include <QCheckBox>
+#include <QDate>
+#include <QPainter>
+#include <QMessageBox>
+class TodoItem : public QWidget
+{
+    Q_OBJECT
+public:
+    //explicit TodoItem(QWidget *parent = nullptr);
+    TodoItem(QString text,QColor backgroundColor,int height,QDate date,bool isRepeat);
+    QCheckBox *check;
+    
+    QString text;
+    QColor backgroundColor;
+    int height;
+    QDate date;
+    bool isRepeat;
+    
+    ~TodoItem();
+    bool ischecked();
+    void setBackgroundColor();
+    void setheight();
+    void setDate();
+    
+    void mouseReleaseEvent(QMouseEvent *event);
+    void paintEvent(QPaintEvent *event);
+signals:
+    void click();
+
+public slots:
+};
+
+#endif // TODOITEM_H

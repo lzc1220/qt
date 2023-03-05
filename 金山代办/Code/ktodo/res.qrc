@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/app_hui.png</file>
+        <file>res/date.png</file>
+        <file>res/doc.png</file>
+        <file>res/lian_green.png</file>
+        <file>res/lian_hui.png</file>
+        <file>res/logo.png</file>
+        <file>res/table.png</file>
+        <file>res/talk_green.png</file>
+        <file>res/talk_hui.png</file>
+        <file>res/talkwithfr.png</file>
+        <file>res/video.png</file>
+        <file>res/app_green.png</file>
+        <file>res/daiban.png</file>
+        <file>res/daiban_green.png</file>
+        <file>res/fenpei.png</file>
+        <file>res/fenpei_green.png</file>
+        <file>res/shouye.png</file>
+        <file>res/shouye_green.png</file>
+        <file>res/sort.png</file>
+        <file>res/update.png</file>
+        <file>res/repeat.png</file>
+        <file>res/beizhu.png</file>
+        <file>res/daoqi.png</file>
+        <file>res/fenpeigei.png</file>
+        <file>res/gengxin.png</file>
+        <file>res/gengxin_hui.png</file>
+        <file>res/miaoshu.png</file>
+        <file>res/mygroup.png</file>
+        <file>res/mygroup_green.png</file>
+        <file>res/paixu.png</file>
+        <file>res/paixu_hui.png</file>
+        <file>res/tixing.png</file>
+        <file>res/xinjiangroup.png</file>
+        <file>res/shang.png</file>
+        <file>res/xia.png</file>
+        <file>res/ggao.png</file>
+    </qresource>
+</RCC>

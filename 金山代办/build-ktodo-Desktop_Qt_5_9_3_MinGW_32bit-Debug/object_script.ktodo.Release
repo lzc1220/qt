@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\ktodo.o
+./release\kmypushbutoon.o
+./release\kprintbutton.o
+./release\ktodoitem.o
+./release\qrc_res.o
+./release\moc_ktodo.o
+./release\moc_kmypushbutoon.o
+./release\moc_kprintbutton.o
+./release\moc_ktodoitem.o
+);

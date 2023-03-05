@@ -1,0 +1,43 @@
+#include "todoitem.h"
+
+//TodoItem::TodoItem(QWidget *parent) : QWidget(parent)
+//{
+
+//}
+TodoItem::TodoItem(QString text,QColor backgroundColor,int height,QDate date,bool isRepeat){
+    this->text = text;
+    this->backgroundColor = backgroundColor;
+    this->height = height;
+    this->date = date;
+    this->isRepeat = isRepeat;
+}
+
+TodoItem::~TodoItem(){
+    delete text;
+    delete backgroundcolor;
+    delete date;
+}
+
+void TodoItem::paintEvent(QPaintEvent *event){
+    
+}
+
+void TodoItem::mouseReleaseEvent(QMouseEvent *event){
+    emit click();
+}
+
+bool TodoItem::ischecked(){
+    return check->isChecked();
+}
+
+void TodoItem::setBackgroundColor(QColor backgroundColor){
+    this->backgroundColor = backgroundColor;
+}
+
+void TodoItem::setheight(int height){
+    this->height =height;
+}
+
+void TodoItem::setDate(QDate date){
+    this->date
+}
